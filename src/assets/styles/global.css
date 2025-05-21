@@ -1,0 +1,67 @@
+/* --- Reset some basic elements --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Set base font and background --- */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* --- Anchor tag styles --- */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* --- Heading and paragraph styles --- */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #222;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* --- Container class (optional) --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* --- Utility classes (optional, for spacing) --- */
+.mt-1 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 1rem; }
+.text-center { text-align: center; }
+
+/* --- Button base styles (optional) --- */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
